@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(124, 237, 237, 0.968);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.recepção{
+   position: relative; 
+   width: 100%;
+   max-width: 1000px;
+   min-height: 1000px;
+   background: #fff;
+   margin: 50px;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0 35px 55px rgb(0, 0, 0,0.1);
+}
+
+.recepção .esquerdo{
+    position: relative;
+    background: #003851;
+    padding: 40px;
+}
+
+.textoPerfil{
+    position: relative;
+    display:flex
+    
+    
+}
+
+.recepção, .direito{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.perfil, .h5{
+    padding-top: 7%;
+}
+
+.direito, .nomeCompleto, .h2{
+    font-style: oblique;
+}
+ 
+.experiencia, .trabalho, h5, .descrição{
+    padding-top: 2%;
+}
+
+.historico, .escolaEstadual, .escolaMunicipal{
+    padding-top: 2%;
+}
+
+img{
+    border-radius: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.contatos, .habilidades{
+    color: #fff;
+    padding-top: 2%;
+}
